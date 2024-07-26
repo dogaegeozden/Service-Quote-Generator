@@ -61,6 +61,8 @@ server {
 
 	   sudo systemctl start nginx && sudo systemctl reload nginx && sudo systemctl restart nginx
 
+7) Visit http://localhost:2000 
+
 ### Notes
 
 1) This application is for demonstration purposes only and should not be used for production without further development and testing.
