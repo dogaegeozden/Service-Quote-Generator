@@ -106,7 +106,7 @@
                         if (isset($_POST['wd-qr-btn'])) {
 
                             echo "<p>Get a comprehensive " . strtolower($sname) . " solution with our expert team!</p>";
-                            echo "<strong>Package Includes</strong>";
+                            echo "<p><strong>Package Includes</strong></p>";
                             echo "<ul><li>Full Stack Web Application development for a robust online presence.</li><li>Responsive Design to ensure seamless user experience across devices</li><li>Optimization for Search Engines to boost your online visibility.</li><li>Cyber Security measures to protect your website and data.</li><li>Maintenance and Update services to keep your website fresh and secure.</li></ul>";
                             echo "<p><strong>Investment: </strong>Starting from $1000</p>";
                             echo "<p><strong>Timeline: </strong>1-12 weeks</p>";
@@ -118,7 +118,7 @@
                         } else if (isset($_POST['gd-qr-btn'])) {
 
                             echo "<p>Elevate your brand's visual identity with our expert " . strtolower($sname) . " services!</p>";
-                            echo "<strong>Package Includes</strong>";
+                            echo "<p><strong>Package Includes</strong></p>";
                             echo "<ul><li>Logos, Posters, Brochures, Menu Designs, and more.</li><li>Engaging motion graphics to capture your audience's attention.</li><li>Custom illustrations to bring your brand to life.</li><li>Eye-catching graphics to enhance your online presence.</li><li>Unique designs tailored to your brand's specific needs.</li></ul>";
                             echo "<p><strong>Investment: </strong>Starting from $1000</p>";
                             echo "<p><strong>Timeline: </strong>4-8 weeks</p>";
@@ -130,7 +130,7 @@
                         } else if (isset($_POST['ts-qr-btn'])) {
 
                             echo "<p>Get peace of mind with our expert " . strtolower($sname) . " services!</p>";
-                            echo "<strong>Package Includes</strong>";
+                            echo "<p><strong>Package Includes</strong></p>";
                             echo "<ul><li>Fast and effective issue resolution.</li><li>Dedicated support tailored to your unique needs.</li><li>Regular checks to prevent issues before they arise.</li></ul>";
                             echo "<p><strong>Investment: </strong>Starting from $1000 per month</p>";
                             echo "<p><strong>Timeline: </strong>4-8 weeks</p>";
