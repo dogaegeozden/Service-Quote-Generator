@@ -20,15 +20,15 @@ This is a web application that provides information about a fictional company's 
 
 1) Update and upgrade your linux server/machine.
 
-		sudo apt updage && sudo apt upgrade
+	   sudo apt updage && sudo apt upgrade
 
 2) Install dependencies.
 
-		sudo apt install nginx php-fpm
+	   sudo apt install nginx php-fpm
 
 3) Create a site.
 
-		sudo nano /etc/nginx/sites-available/service-quote-generator
+	   sudo nano /etc/nginx/sites-available/service-quote-generator
 
 ```
 server {
@@ -51,15 +51,15 @@ server {
 
 4) Enable the site.
 
-		ln -s /etc/nginx/sites-available/service-quote-generator /etc/nginx/sites-enabled
+	   ln -s /etc/nginx/sites-available/service-quote-generator /etc/nginx/sites-enabled
 
 5) Test nginx conf.
 
-		sudo nginx -t
+	   sudo nginx -t
 
 6) Start, reload and restart nginx
 
-		sudo systemctl start nginx && sudo systemctl reload nginx && sudo systemctl restart nginx
+	   sudo systemctl start nginx && sudo systemctl reload nginx && sudo systemctl restart nginx
 
 ### Notes
 
