@@ -4,7 +4,6 @@ This is a web application that provides information about a fictional company's 
 
 ## Features:
 
-- Displays server information
 - Lists services (Web Development, Graphic Design, Technical Support) with descriptions and features
 - Allows users to request a free quote for each service
 - Displays a quote package with details and pricing for each service

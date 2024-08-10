@@ -9,35 +9,6 @@
 
     <body>
 
-        <div>
-        <?php
-            function printServerInfo() {
-                echo "<strong>Server Info</strong>";
-                echo "<br>";
-                echo "<br>";
-                echo "File Name: " . $_SERVER['PHP_SELF'];
-                echo "<br>";
-                echo "Host Header: " . $_SERVER['HTTP_HOST'];
-                echo "<br>";
-                echo "Completer URL: " . $_SERVER['HTTP_REFERER'];
-                echo "<br>";
-                echo "User Agent: " . $_SERVER['HTTP_USER_AGENT'];
-                echo "<br>";
-                echo "Script Name: " . $_SERVER['SCRIPT_NAME'];
-                echo "<br>";
-                echo "Version of The Common Gateway Interface: " . $_SERVER['GATEWAY_INTERFACE'];
-                echo "<br>";
-                echo "Server Address: " . $_SERVER['SERVER_ADDR'];
-                echo "<br>";
-                echo "Server Software: " . $_SERVER['SERVER_SOFTWARE'];
-                echo "<br>";
-                echo "Server Protocol: " . $_SERVER['SERVER_PROTOCOL'];
-            }
-
-            printServerInfo();
-        ?>
-        </div>
-
         <div id="ServicesBox">
             
             <h1 style="margin-bottom: 30px;">Services</h1>
